@@ -13,15 +13,15 @@
 </dependencies>  
 <repositories>
 	<repository>
-	<id>upes</id>
-	<name>Releases</name>
+	<id>release</id>
+	<name>release</name>
 	<url>http://localhost:8081/repository/release/</url>
 	</repository>
 </repositories>
 <distributionManagement>
   <repository>
-    <id>releases</id>
-    <name>releases</name>
+    <id>release</id>
+    <name>release</name>
     <url>http://localhost:8081/repository/release/</url>
   </repository>
   <snapshotRepository>
