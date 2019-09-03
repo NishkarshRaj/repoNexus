@@ -15,19 +15,19 @@
 	<repository>
 	<id>upes</id>
 	<name>Releases</name>
-	<url>hhttp://localhost:8081/repository/releases/</url>
+	<url>http://localhost:8081/repository/release/</url>
 	</repository>
 </repositories>
 <distributionManagement>
   <repository>
     <id>releases</id>
     <name>releases</name>
-    <url>http://localhost:8081/repository/releases/</url>
+    <url>http://localhost:8081/repository/release/</url>
   </repository>
   <snapshotRepository>
-    <id>snapshots</id>
-    <name>snapshots</name>
-    <url>http://localhost:8081/repository/snapshots/</url>
+    <id>snapshot</id>
+    <name>snapshot</name>
+    <url>http://localhost:8081/repository/snapshot/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
